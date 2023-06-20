@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFDFFB"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/i1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Enter the First Value"
+        android:inputType="number"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/i2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:hint="Enter the Second Value"
+        android:inputType="number"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/design_default_color_primary"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="Addition (+)"
+        android:textAlignment="center"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/design_default_color_primary"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="Substraction (-)"
+        android:textAlignment="center"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/design_default_color_primary"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="Multipication (*)"
+        android:textAlignment="center"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/design_default_color_primary"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="Division (/)"
+        android:textAlignment="center"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="Result = "
+        android:textSize="16sp" />
+</LinearLayout>
